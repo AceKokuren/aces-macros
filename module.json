@@ -1,0 +1,41 @@
+{
+  "id": "aces-macros",
+  "title": "Aces Macros",
+  "description": "A small compendium full of little macros I have created over time using FoundryVTT.",
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "AceKokuren",
+      "discord": "acekokuren",
+      "url": "https://github.com/AceKokuren",
+      "flags": {}
+    }
+  ],
+  "manifest": "",
+  "download": "",
+  "packs": [
+    {
+      "name": "aces-macros",
+      "label": "Aces macros",
+      "path": "packs/aces-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Ace's Helpful Macros",
+      "packs": [
+        "aces-macros"
+      ]
+    }
+  ]
+}
